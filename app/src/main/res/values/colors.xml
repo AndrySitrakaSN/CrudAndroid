@@ -1,0 +1,50 @@
+<resources>
+    <!-- Vos couleurs existantes -->
+
+    <!-- Couleur noire -->
+    <color name="noir">#FF000000</color>
+
+    <!-- Couleur blanche -->
+    <color name="blanc">#FFFFFFFF</color>
+
+    <!-- Couleur rouge -->
+    <color name="rouge">#FFFF0000</color>
+
+    <!-- Couleur verte -->
+    <color name="vert">#FF00FF00</color>
+
+    <!-- Couleur bleue -->
+    <color name="bleu">#FF0000FF</color>
+
+    <!-- Couleur jaune -->
+    <color name="jaune">#FFFFFF00</color>
+
+    <!-- Couleur cyan -->
+    <color name="cyan">#FF00FFFF</color>
+
+    <!-- Couleur magenta -->
+    <color name="magenta">#FFFF00FF</color>
+
+    <!-- Couleur gris -->
+    <color name="gris">#FF808080</color>
+
+    <!-- Couleur transparente -->
+    <color name="transparent">#00000000</color>
+
+    <!-- Nouvelles couleurs ajoutées -->
+
+    <!-- Couleur orange -->
+    <color name="orange">#FFFFA500</color>
+
+    <!-- Couleur violet -->
+    <color name="violet">#133C4E</color>
+
+    <!-- Couleur rose -->
+    <color name="rose">#FFFFC0CB</color>
+
+    <!-- Couleur dorée -->
+    <color name="doree">#FFFFD700</color>
+
+    <!-- Couleur argentée -->
+    <color name="argente">#FFC0C0C0</color>
+</resources>

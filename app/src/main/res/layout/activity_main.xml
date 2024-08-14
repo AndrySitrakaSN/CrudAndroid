@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanc"
+    tools:context=".MainActivity">
+
+    <!-- TextView for the title -->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blanc"
+        android:gravity="center"
+        android:padding="10dp"
+        android:rotationX="25"
+        android:text="GESTION DES ETUDIANTS"
+        android:textColor="#323A80"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- Layout for buttons aligned below the title -->
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="171dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/title_text"
+        android:background="@color/blanc"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/insert_data"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#6565B3"
+            android:rotationX="-4"
+            android:text="AJOUTER"
+            android:textColor="#fff"
+            app:icon="@android:drawable/ic_menu_add" />
+
+    </LinearLayout>
+
+    <!-- Header TextView -->
+    <TextView
+        android:id="@+id/data_list_Count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:autoText="false"
+        android:background="#FFFFFF"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="Liste des étudiants"
+        android:textColor="#673AB7"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- RecyclerView to display all data -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/data_list_Count"
+        android:background="@drawable/i"
+        android:padding="10dp" />
+
+</RelativeLayout>
