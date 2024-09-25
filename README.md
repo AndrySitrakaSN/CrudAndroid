@@ -1,2 +1,2 @@
 # CrudAndroid en JAVA Base
-c'est une Application Mobil CRUD des étudiant dans un établissement en JAVA
+C'est une petite application mobile de type CRUD pour la gestion des étudiants dans un établissement.
